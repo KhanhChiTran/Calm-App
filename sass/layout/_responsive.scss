@@ -33,7 +33,7 @@
   }
 
   .peeps {
-    background-image: url(/Calm-App/images/peeps-tablet.png);
+    background-image: url(../../images/peeps-mobile.png);
     flex-direction: column;
     &-text-slider {
       margin-bottom: 500px;
@@ -48,7 +48,7 @@
 }
 @media (min-width: $tablet) {
   .peeps {
-    background-image: url(/Calm-App/images/Peeps-desktop.png);
+    background-image: url(../../images/Peeps-desktop.png);
   }
   .blog-content {
     padding: 0 10%;

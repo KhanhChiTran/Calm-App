@@ -110,7 +110,7 @@ span {
 }
 
 .peeps {
-  background-image: url(/Calm-App/images/peeps-mobile.png);
+  background-image: url(../images/peeps-mobile.png);
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -181,7 +181,7 @@ span {
   }
 
   .peeps {
-    background-image: url(../images/peeps-mobile.png);
+    background-image: url(../images/peeps-tablet.png);
     flex-direction: column;
   }
   .peeps-text-slider {

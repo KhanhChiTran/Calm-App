@@ -1,0 +1,72 @@
+.hero {
+  &-img img {
+    width: 100%;
+  }
+  &-content span {
+    padding-bottom: 30px;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center;
+  }
+}
+
+.blog {
+  position: relative;
+  margin-top: 200px;
+  background-color: #fff;
+  &-img {
+    justify-content: center;
+    display: flex;
+    height: 250px;
+  }
+  &-img img {
+    position: absolute;
+    top: -200px;
+  }
+  &-content__action {
+    margin-top: 30px;
+    position: relative;
+
+    a button {
+      font-family: "Roboto";
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      padding: 40px calc(50px + 3%);
+      width: 100%;
+    }
+    .play-icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 7%;
+    }
+  }
+}
+
+.peeps {
+  background-image: url(/Calm-App/images/peeps-mobile.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-top: 150px;
+  &-headline {
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &-text-slider {
+    align-items: center;
+    margin-bottom: 300px;
+  }
+  &-text {
+    text-align: center;
+    margin: 0 40px;
+  }
+}

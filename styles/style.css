@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+span {
+  display: block;
+}
+
+.wrapper {
+  background-color: #ffbaa1;
+  padding-bottom: 116px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.btn {
+  padding: 10px 25px;
+  background-color: #110acd;
+  border: none;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.box-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.headline {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+}
+
+.small-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 39px;
+}
+
+.hero-img img {
+  width: 100%;
+}
+.hero-content span {
+  padding-bottom: 30px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+}
+
+.blog {
+  position: relative;
+  margin-top: 200px;
+  background-color: #fff;
+}
+.blog-img {
+  justify-content: center;
+  display: flex;
+  height: 250px;
+}
+.blog-img img {
+  position: absolute;
+  top: -200px;
+}
+.blog-content__action {
+  margin-top: 30px;
+  position: relative;
+}
+.blog-content__action a button {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  padding: 40px calc(50px + 3%);
+  width: 100%;
+}
+.blog-content__action .play-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 7%;
+}
+
+.peeps {
+  background-image: url(/Calm-App/images/peeps-mobile.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-top: 150px;
+}
+.peeps-headline {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.peeps-text-slider {
+  align-items: center;
+  margin-bottom: 300px;
+}
+.peeps-text {
+  text-align: center;
+  margin: 0 40px;
+}
+
+.header {
+  padding: 46px 0;
+}
+.header nav {
+  width: 100%;
+}
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 32px 0;
+}
+.header ul li a {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding-bottom: 260px;
+  }
+
+  .header {
+    padding: 50px;
+  }
+
+  .hero-img {
+    order: 2;
+  }
+
+  .container {
+    flex-direction: unset;
+  }
+
+  .blog-img {
+    height: auto;
+  }
+  .blog-img img {
+    position: unset;
+    width: 100%;
+  }
+  .blog-content {
+    padding: 0 4%;
+  }
+
+  .peeps {
+    background-image: url(/Calm-App/images/peeps-tablet.png);
+    flex-direction: column;
+  }
+  .peeps-text-slider {
+    margin-bottom: 500px;
+  }
+
+  .col-md-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .peeps {
+    background-image: url(/Calm-App/images/Peeps-desktop.png);
+  }
+
+  .blog-content {
+    padding: 0 10%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
